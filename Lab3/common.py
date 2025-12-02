@@ -76,6 +76,7 @@ def printGraph(root,data=None, size=10, fileName="DecisionTree"):
     addId(root)
     addNode(dgraph, root,data)
     display(dgraph)
+    return dgraph
     
     
 def getTrainingDataSet():
